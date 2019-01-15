@@ -10,11 +10,8 @@ app.get("/test",function(req,res){
 
 var visualRecognition = new VisualRecognitionV3({
   version: '2018-03-19',
-  iam_apikey: 'UuO7AhoSbnaprHoLEDKm0XVHLHpViYZrxlVrERqeEEs'
-
-  
-  '
-});
+  iam_apikey: 'UuO7AhoSbnaprHoLEDKm0XVHLHpViYZrxlVrERqeEEsC'
+  });
 
 var images_file = fs.createReadStream('./picture.jpg');
 var classifier_ids = ["food"];
